@@ -28,6 +28,9 @@ module.exports.routes = {
     view: 'pages/homepage'
   },
 
+  'get /example': { view: 'example'},
+  'post /items': 'ItemController.create'
+
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
